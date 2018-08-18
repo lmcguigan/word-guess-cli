@@ -20,7 +20,10 @@ function Word(wordString) {
         }
     }
 }
-var myWord = new Word("trapezoid");
-console.log(myWord.displayWord());
-myWord.checkEachLetter("a");
-console.log(myWord.displayWord());
+//Testing all properties and methods
+//var myWord = new Word("trapezoid");
+//console.log(myWord.displayWord());
+//myWord.checkEachLetter("a");
+//console.log(myWord.displayWord());
+
+module.exports = Word;

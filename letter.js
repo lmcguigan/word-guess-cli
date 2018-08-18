@@ -12,6 +12,7 @@ function Letter(char) {
     this.checkChar = function (userInput) {
         if (userInput === this.letterString) {
             this.guessed = true;
+            return true;
         }
     }
 }
