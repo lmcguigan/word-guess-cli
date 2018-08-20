@@ -18,7 +18,7 @@ function replenish() {
 
 //refills the possible words array
 function refill() {
-    possibleWords = ["ochre", "chartreuse", "cinereous", "vermillion"];
+    possibleWords = ["ochre", "chartreuse", "cinereous", "vermillion", "alabaster", "cerulean", "ecru", "sepia", "azuline", "aubergine", "celadon", "smaragdine"];
 }
 
 //function that randomly selects a word from possible words array
